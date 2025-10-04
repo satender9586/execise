@@ -2,35 +2,15 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="header-container">
-      <div>
-        <h1 style={{ color: "white", fontSize: "50px" }}>Welcome My Store</h1>
-        <p style={{ textAlign: "center", fontSize: "20px" }}>
-          Always work for costomer
-        </p>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            marginTop: "10px",
-          }}
-        >
-          <button
-            style={{
-              fontSize: "17px",
-              padding: "7px 20px",
-              backgroundColor: "green",
-              border: "none",
-              borderRadius: "5px",
-              color: "wheat",
-            }}
-          >
-            more
-          </button>
+    <header className="header-container">
+      <div className="header-content">
+        <h1>Welcome to My Store</h1>
+        <p>Always working for our customers</p>
+        <div className="header-button">
+          <button>Explore More</button>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

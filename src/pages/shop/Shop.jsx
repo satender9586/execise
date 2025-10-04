@@ -36,7 +36,6 @@ const Shop = () => {
 
 
   const filterProduct = (filter.length>0  ? filter : myproducts) || myproducts
-  console.log(filterProduct)
   return (
     <Layout>
       <Header />

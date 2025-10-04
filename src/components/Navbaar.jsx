@@ -39,7 +39,7 @@ const Navbaar = () => {
           />
         </div>
        <Link to={"/cart"}>
-         <div style={{ color: "red", fontSize: "" }}>Cart {cart.length}</div>
+         <div style={{ color: "red", fontSize: "" }}>🛒 {cart.length}</div>
        </Link>
       </div>
     </div>
